@@ -1,0 +1,21 @@
+---
+import type { GetStaticPaths } from "astro";
+import HomePageProduct from "../../components/HomePageProduct";
+import dataProducts from "../../data/products.json";
+import Layout from '../../layouts/Layout.astro';
+
+
+const { slug } = Astro.params;
+
+export const getStaticPaths = (() => {
+    return dataProducts.map((product) => ({
+        params: { slug: product.name.toLowerCase().replace(/\s+/g, '-') },
+    }));
+}) satisfies GetStaticPaths;
+
+const product = dataProducts.filter(product => product.name.toLowerCase().replace(/\s+/g, '-') === slug)[0];
+
+---
+<Layout title={`Producto ${product.name}`}>
+    <HomePageProduct client:only product={product} />
+</Layout>

@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import dataProducts from '../data/products.json'
+import CardProduct from '../components/CardProduct'
+---
+
+
+<Layout title="Frontend Mentor | E-commerce product page">
+	<main>
+		<section class="products container">
+			{
+				dataProducts.map(product =>{
+					return <CardProduct product={product } client:only />
+				})
+			}
+			</section>
+	</main>
+</Layout>
+

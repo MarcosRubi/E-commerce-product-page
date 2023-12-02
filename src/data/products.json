@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "name": "Fall Limited Edition Sneakers",
+        "UnitPrice": 250.00,
+        "categorie": "Sneaker Company",
+        "description": "These low-profile sneakers are you perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everthyng the weather can offer.",
+        "discount": 50,
+        "carouselImages" : [
+            "image-product-1.jpg",
+            "image-product-2.jpg",
+            "image-product-3.jpg",
+            "image-product-4.jpg"
+        ],
+        "carouselThumbnail" : [
+            "image-product-1-thumbnail.jpg",
+            "image-product-2-thumbnail.jpg",
+            "image-product-3-thumbnail.jpg",
+            "image-product-4-thumbnail.jpg"
+        ],
+        "calification": 5
+    },
+    {
+        "id": 2,
+        "name": "Premium Leather High-Tops",
+        "UnitPrice": 320.00,
+        "categorie": "Footwear",
+        "description": "Step out in style with these high-top sneakers crafted from premium leather. The perfect blend of comfort and elegance for any occasion.",
+        "discount": 20,
+        "carouselImages" : [
+            "image-product-1.jpg",
+            "image-product-2.jpg",
+            "image-product-3.jpg",
+            "image-product-4.jpg"
+        ],
+        "carouselThumbnail" : [
+            "image-product-1-thumbnail.jpg",
+            "image-product-2-thumbnail.jpg",
+            "image-product-3-thumbnail.jpg",
+            "image-product-4-thumbnail.jpg"
+        ],
+        "calification": 4
+    },
+    {
+        "id": 3,
+        "name": "Running Pro Performance Shoes",
+        "UnitPrice": 180.00,
+        "categorie": "Athletic Footwear",
+        "description": "Designed for the serious runner, these performance shoes offer advanced cushioning and support. Dominate the track with every stride.",
+        "discount": 15,
+        "carouselImages" : [
+            "image-product-1.jpg",
+            "image-product-2.jpg",
+            "image-product-3.jpg",
+            "image-product-4.jpg"
+        ],
+        "carouselThumbnail" : [
+            "image-product-1-thumbnail.jpg",
+            "image-product-2-thumbnail.jpg",
+            "image-product-3-thumbnail.jpg",
+            "image-product-4-thumbnail.jpg"
+        ],
+        "calification": 3
+    },
+    {
+        "id": 4,
+        "name": "Casual Canvas Slip-Ons",
+        "UnitPrice": 120.00,
+        "categorie": "Casual Shoes",
+        "description": "Effortless style meets comfort with these casual slip-ons. The breathable canvas material keeps your feet cool all day long.",
+        "discount": 10,
+        "carouselImages" : [
+            "image-product-1.jpg",
+            "image-product-2.jpg",
+            "image-product-3.jpg",
+            "image-product-4.jpg"
+        ],
+        "carouselThumbnail" : [
+            "image-product-1-thumbnail.jpg",
+            "image-product-2-thumbnail.jpg",
+            "image-product-3-thumbnail.jpg",
+            "image-product-4-thumbnail.jpg"
+        ],
+        "calification": 4
+    }
+    
+    
+]

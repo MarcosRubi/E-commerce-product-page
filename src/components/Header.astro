@@ -1,0 +1,23 @@
+---
+import Cart from "./Cart";
+import Menu from "./Menu";
+---
+
+<header class="main-header">
+    <div class="container">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center justify-evenly">
+                <Menu client:load/>
+            </div>
+            <div class="flex items-center relative">
+                <Cart client:only/>
+                <a href="#" class="profile">
+                    <img
+                        src="/images/image-avatar.png"
+                        alt="Imagen del usuario"
+                    />
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
